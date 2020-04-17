@@ -77,28 +77,50 @@ body {
 }
 #sec_como_puedo_ayudarte #sec_servicios {
   display: flex;
+  justify-content: space-around;
 }
 #sec_como_puedo_ayudarte #sec_servicios .art_tz {
-  margin-left: 15px;
+  /*margin-left: 15px;*/
 }
 #sec_como_puedo_ayudarte #sec_servicios article {
   background-color: #ff9900;
   color: white;
   border: 2px solid blue;
+  width: 300px;
+  display: table;
 }
 #sec_como_puedo_ayudarte #sec_servicios article p {
   text-align: justify;
 }
-#sec_herrameintas {
+#sec_como_puedo_ayudarte #sec_servicios article button {
+  border: 2px solid black;
+  color: #ff9900;
+  background-color: white;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  box-shadow: 3px 3px black;
+}
+#sec_herramientas {
   color: white;
   text-align: center;
   background-color: #6fa8dc;
 }
-#sec_herrameintas table {
+#sec_herramientas table {
   color: black;
+  margin: 0 auto;
+  background-color: white;
+  width: 60%;
+  border: 2px solid black;
 }
-#sec_herrameintas table tbody img {
-  width: 40%;
+#sec_herramientas table th {
+  background-color: grey;
+  text-align: left;
+  margin-left: 10px;
+  padding: 5px;
+}
+#sec_herramientas table tbody img {
+  width: 100px;
 }
 #pie_de_pagina {
   text-align: center;

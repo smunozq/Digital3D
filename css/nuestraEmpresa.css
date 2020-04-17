@@ -1,0 +1,113 @@
+body {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.borde {
+  border: 1px solid black;
+  padding: 15px;
+}
+#cabecera {
+  text-align: center;
+}
+#menu {
+  text-align: center;
+}
+#menu a {
+  display: inline-block;
+  background-color: #adbecf;
+  color: black;
+  padding: 1px 20px 1px 20px;
+  text-decoration: none;
+  line-height: normal;
+  width: 15%;
+  border-radius: 5px;
+}
+#menu a:hover {
+  color: white;
+  background: gray;
+}
+#menu a:active {
+  color: black;
+}
+#menu .menu_activo {
+  background-color: orangered;
+}
+#quienes_somos {
+  display: flex;
+  text-align: justify;
+}
+#img_oficina {
+  text-align: center;
+}
+#quienes_somos img {
+  width: 70%;
+}
+#q_somos h1 {
+  margin: 0;
+}
+#q_somos small {
+  text-transform: uppercase;
+  font-size: 10px;
+}
+#q_somos hr {
+  background-color: black;
+  width: 25%;
+  height: 1px;
+  border-radius: 50%;
+  transform: rotate(1deg);
+  margin-left: 0%;
+}
+#n_equipo {
+  text-align: center;
+  background-color: #6fa8dc;
+  color: white;
+}
+#n_equipo h1 {
+  margin-bottom: 0;
+}
+#n_equipo hr {
+  background-color: white;
+  width: 15%;
+  height: 1px;
+  border-radius: 50%;
+  transform: rotate(1deg);
+}
+#n_empleados {
+  text-align: center;
+  color: black;
+}
+#n_empleados h1 {
+  margin-bottom: 0;
+}
+#n_empleados hr {
+  background-color: black;
+  width: 18%;
+  height: 1px;
+  border-radius: 50%;
+  transform: rotate(1deg);
+}
+#n_empleados table {
+  margin: 40px auto;
+  text-align: left;
+  width: 70%;
+  border: 2px solid black;
+}
+#n_empleados table thead {
+  background-color: grey;
+}
+#n_empleados table td,
+th {
+  padding-left: 5px;
+}
+#n_empleados table tr:nth-child(even) {
+  background-color: lightgrey;
+}
+.vacios {
+  height: 18px;
+}
+footer {
+  text-align: center;
+}
